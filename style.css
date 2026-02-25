@@ -14,6 +14,7 @@ body {
 
     color: #222;
 }
+
 body::before {
     content: "";
     position: fixed;
@@ -68,6 +69,7 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 22px;
 }
+
 /* ===== PHOTO ITEM ===== */
 .photo-item {
     position: relative;
@@ -83,6 +85,7 @@ h2 {
         transform .35s ease,
         box-shadow .35s ease;
 }
+
 .photo-item:hover {
     transform: translateY(-6px);
     box-shadow:
@@ -112,6 +115,7 @@ h2 {
     z-index: 2;
     pointer-events: none;
 }
+
 .photo-item::before {
     content: "© SonPhoto";
     position: absolute;
@@ -207,6 +211,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, .8);
 }
+
 .pagination {
     text-align: center;
     margin: 40px 0;
@@ -229,6 +234,7 @@ h2 {
     opacity: 0.4;
     cursor: not-allowed;
 }
+
 /* ===== MOBILE ===== */
 @media (max-width: 600px) {
     .photo-item img {

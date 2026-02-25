@@ -13,16 +13,16 @@
     <header class="site-header">
         <div class="logo">
             <img src="logo_web.png" alt="Studio Logo">
-            
+
         </div>
     </header>
 
     <h2 id="title"></h2>
 
     <div id="gallery"></div>
-    
+
     <div id="pagination"></div>
-    
+
     <div id="lightbox" onclick="closeLightbox()">
         <img id="lightbox-img" />
     </div>
@@ -41,30 +41,30 @@
             document.getElementById("lightbox").classList.remove("show");
         }
         document.addEventListener("contextmenu", function (e) {
-                if (e.target.tagName === "IMG") {
-                    e.preventDefault();
-                }
-            });
-            
-        
+            if (e.target.tagName === "IMG") {
+                e.preventDefault();
+            }
+        });
+
+
     </script>
-<footer class="site-footer">
-    <div class="footer-inner">
-        <div class="footer-left">
-            <strong>Son Photo </strong>
-            <span>Photography & Retouch</span>
-        </div>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <strong>Son Photo </strong>
+                <span>Photography & Retouch</span>
+            </div>
 
-        <div class="footer-center">
-            © 2026 Son Photo . All rights reserved.
-        </div>
+            <div class="footer-center">
+                © 2026 Son Photo . All rights reserved.
+            </div>
 
-        <div class="footer-right">
-            <a href="tel">📞 037 312 4646</a>
-            <a href="https://www.facebook.com/sonphoto79" target="_blank">Facebook</a>
+            <div class="footer-right">
+                <a href="tel">📞 037 312 4646</a>
+                <a href="https://www.facebook.com/sonphoto79" target="_blank">Facebook</a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 
